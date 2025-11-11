@@ -1,7 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:trainer21/juego/baraja.dart';
+import 'juego/carta.dart';
 
 void main() {
-  runApp(const MyApp());
+  // PRUEBA
+  final baraja1 = Baraja();
+  print("Cartas totales: ${baraja1.remainingCards}");
+  final card = baraja1.dibujarCarta();
+  print("Carta sacada: $card");
+
+  //runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
