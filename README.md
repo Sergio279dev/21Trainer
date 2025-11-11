@@ -1,4 +1,4 @@
-# trainer21
+# 21Trainer
 
 A new Flutter project.
 
