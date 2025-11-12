@@ -1,6 +1,6 @@
 class Carta {
-  final String palo; // Diamantes, tréboles..
-  final int valor;  // Este valor puede ir del 1 al 13
+  final String palo;
+  final int valor;  // Este valor puede ir del 1 al 13. Surge de enumerar las cartas del 1 al 13 (11,12,13=J,Q,K)
 
   Carta(this.palo, this.valor);
 

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:trainer21/juego/baraja.dart';
-import 'juego/carta.dart';
 
 void main() {
   // PRUEBA
